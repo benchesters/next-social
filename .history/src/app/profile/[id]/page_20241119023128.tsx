@@ -1,5 +1,5 @@
 import Feed from "@/components/Feed"
-import LeftMenu from "@/components/LeftMenu"
+
 import RightMenu from "@/components/RightMenu"
 
 const ProfilePage = () => {
@@ -14,7 +14,7 @@ const ProfilePage = () => {
         </div>
       </div>
       <div className="hidden lg:block w-[30%]">
-        <RightMenu userId="test"/>
+        <RightMenu userID="test"/>
         </div>
     </div>
   )
