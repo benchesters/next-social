@@ -51,7 +51,7 @@ const Post = () => {
             </div>
 
         </div>
-  
+  <Comments/>
     </div>
   )
 }

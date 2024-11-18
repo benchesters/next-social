@@ -24,7 +24,7 @@ const Comments = () => {
            height={40}
            className="w-10 h-10 rounded-full"/>
           {/* DESC */}
-          <div className="flex flex-col gap-2 flex-1">
+          <div className="flex flex-col gap-2">
             <span>Benice SPencer</span>
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. 

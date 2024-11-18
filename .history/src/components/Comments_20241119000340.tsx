@@ -16,7 +16,7 @@ const Comments = () => {
       {/* COMMENTS */}
       <div className="">
         {/* COMMENT */}
-        <div className="flex gap-4 justify-between mt-6">
+        <div className="">
           {/* AVATAR */}
           <Image src="https://images.pexels.com/photos/27269560/pexels-photo-27269560/free-photo-of-marti.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
            alt=""
@@ -24,28 +24,22 @@ const Comments = () => {
            height={40}
            className="w-10 h-10 rounded-full"/>
           {/* DESC */}
-          <div className="flex flex-col gap-2 flex-1">
+          <div className="flex flex-col gap-2">
             <span>Benice SPencer</span>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            In quam tortor, vehicula placerat eros ut, vulputate varius augue. 
-            Morbi pretium urna mollis pulvinar ullamcorper. Suspendisse ut enim a ex 
-            accumsan efficitur imperdiet nec enim. Duis iaculis facilisis nunc, sit amet faucibus 
-            sem placerat at. Cras vulputate libero sapien.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quam tortor, vehicula placerat eros ut, vulputate varius augue. Morbi pretium urna mollis pulvinar ullamcorper. Suspendisse ut enim a ex accumsan efficitur imperdiet nec enim. Duis iaculis facilisis nunc, sit amet faucibus sem placerat at. Cras vulputate libero sapien.
             </p>
-            <div className="flex items-center gap-8 text-xs text-gray-500 mt-2">
-              <div className="flex items-center gap-4">
-              <Image src="/like.png"
+            <div className="">
+              <div className="">
+              <Image src="/more.png"
            alt=""
-           width={12}
-           height={12}
+           width={16}
+           height={16}
            className="cursor-pointer w-4 h-4"
             />
-             <span className="text-gray-300">|</span>
-             <span className="text-gray-500">123 Likes</span>
-           </div>
-           <div className="">Reply</div>
-
+            <span>|</span>
+            <span>123</span>
+              </div>
             </div>
           </div>
           {/* ICON */}
