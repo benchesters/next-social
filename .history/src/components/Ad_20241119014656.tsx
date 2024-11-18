@@ -32,10 +32,7 @@ const Ad = ({ size }: { size: "sm" | "md" | "lg" }) => {
             : size === "md"
             ? "Lorem ipsum dolor sit amet consectetur adipisicing elit.  Lorem ipsum dolor sit amet consectetur adipisicing elit."
             : "Lorem ipsum dolor sit amet consectetur adipisicing elit.  Lorem ipsum dolor sit amet consectetur adipisicing elit.  Lorem ipsum dolor sit amet consectetur adipisicing elit."}
-        </p>
-        <button className="bg-gray-200 text-gray-500 p-2 text-xs rounded-lg">
-          Learn more
-        </button>  
+        </p>  
       </div>
   </div>;
 };

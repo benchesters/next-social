@@ -26,16 +26,14 @@ const Ad = ({ size }: { size: "sm" | "md" | "lg" }) => {
       />
       <span className="text-blue-500 font-medium">Big Chef Lounge</span>
        </div>
-       <p className={size === "sm" ? "text-xs" : "text-sm"}>
-          {size === "sm"
-            ? "Lorem ipsum dolor sit amet consectetur adipisicing elit."
-            : size === "md"
-            ? "Lorem ipsum dolor sit amet consectetur adipisicing elit.  Lorem ipsum dolor sit amet consectetur adipisicing elit."
-            : "Lorem ipsum dolor sit amet consectetur adipisicing elit.  Lorem ipsum dolor sit amet consectetur adipisicing elit.  Lorem ipsum dolor sit amet consectetur adipisicing elit."}
-        </p>
-        <button className="bg-gray-200 text-gray-500 p-2 text-xs rounded-lg">
-          Learn more
-        </button>  
+       <p className={size==="sm" ? "text-xs" : "text-sm"}>
+      {size === "sm" 
+      ? "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      :  size==="md" 
+      ? "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quam tortor, vehicula placerat eros ut, vulputate varius augue" 
+      : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quam tortor, vehicula placerat eros ut, vulputate varius augue. Morbi 
+      pretium urna mollis pulvinar ullamcorper."}
+        </p>  
       </div>
   </div>;
 };
