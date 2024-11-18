@@ -6,7 +6,7 @@ const RightMenu = ({ userId }: { userID?: string }) => {
   return <div className="flex flex-col gap-6">
     <FriendRequests />
     <Birthdays />
-    <Ad size="md" />
+    <Ad />
 
   </div>;
 };
