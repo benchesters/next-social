@@ -17,7 +17,7 @@ const ProfilePage = () => {
               alt="" 
               fill className="object-cover rounded-md"
               />
-               <Image src="https://images.pexels.com/photos/2613260/pexels-photo-2613260.jpeg?auto=compress&cs=tinysrgb&w=600" 
+               <Image src="https://images.pexels.com/photos/29400926/pexels-photo-29400926/free-photo-of-trendy-woman-with-pierced-tongue-showing-attitude.jpeg?auto=compress&cs=tinysrgb&w=600" 
               alt=""
               width={128} 
               height={128} 

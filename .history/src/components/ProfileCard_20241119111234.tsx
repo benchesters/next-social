@@ -36,7 +36,6 @@ const ProfileCard = () => {
                 </div>
                 <span className="text-xs text-gray-500">500 Followers</span>
             </div>
-            <button className="bg-blue-500 text-white text-xs p-2 rounded-md">My Profile</button>
         </div>
     </div>
   )
