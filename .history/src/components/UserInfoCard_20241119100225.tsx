@@ -42,18 +42,6 @@ const UserInfoCard = ({ userId }: { userId: string }) => {
              Works at <b>Apple Inc.</b>
           </span>
         </div>
-        <div className="flex items-center justify-between">
-            <div className="flex gap-1 items-center">
-            <Image src="/link.png" alt="" width={16} height={16} />
-            <Link href="https://lama.dev" className="text-blue-500 font-medium">lama.dev</Link>
-            </div>
-            <div className="flex gap-1 items-center">
-            <Image src="/date.png" alt="" width={16} height={16} />
-            <span>Joined November 2024</span>   
-            </div>
-        </div>
-        <button className="bg-blue-500 text-white text-sm rounded-md p-2">Follow</button>
-        <span className="text-red-400 self-end text-xs cursor-pointer">Block User </span>
       </div>
     </div>
   );
