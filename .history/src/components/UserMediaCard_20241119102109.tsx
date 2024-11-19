@@ -12,7 +12,7 @@ const UserMediaCard = ({ userId }: { userId: string }) => {
         </Link>
       </div>
        {/* BOTTOM */}
-       <div className="flex gap-4 justify-between flex-wrap">
+       <div className="flex gap4 justify-between flex-wrap">
           <div className="relative w-1/5 h-24">
             <Image src="https://images.pexels.com/photos/8898438/pexels-photo-8898438.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
             alt="" 
